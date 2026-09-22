@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - arena/01a0c8e3-pryda-site
   workflow_dispatch:
 
 permissions:
