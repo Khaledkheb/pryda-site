@@ -48,7 +48,7 @@ function Services() {
                       type="button"
                       role="tab"
                       aria-selected={isActive}
-                      aria-controls={`service-panel-${service.id}`}
+                      aria-controls="service-panel"
                       onClick={() => setActiveService(service.id)}
                       className={`
                         group
@@ -94,7 +94,7 @@ function Services() {
 
             {/* Active Content */}
             <div
-              id={`service-panel-${activeServiceData.id}`}
+              id="service-panel"
               role="tabpanel"
               aria-label={activeServiceData.title}
               className="

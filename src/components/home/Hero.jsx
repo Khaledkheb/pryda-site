@@ -267,7 +267,6 @@ function Hero() {
             ========================== */}
             <div
               dir="ltr"
-              role="tablist"
               className="
                 flex
                 items-center
